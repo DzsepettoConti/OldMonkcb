@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Bence\\source\\repos\\TwitchChatBot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|c:\\users\\bence\\source\\repos\\twitchchatbot\\twitchchatbot\\ttscontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|solutionrelative:twitchchatbot\\ttscontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|c:\\users\\bence\\source\\repos\\twitchchatbot\\twitchchatbot\\twitchclientcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|solutionrelative:twitchchatbot\\twitchclientcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|c:\\users\\bence\\source\\repos\\twitchchatbot\\twitchchatbot\\twitcheventsubcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|solutionrelative:twitchchatbot\\twitcheventsubcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|c:\\users\\bence\\source\\repos\\twitchchatbot\\twitchchatbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|solutionrelative:twitchchatbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TTSContainer.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\source\\repos\\TwitchChatBot\\TwitchChatBot\\TTSContainer.cs",
+              "RelativeDocumentMoniker": "TwitchChatBot\\TTSContainer.cs",
+              "ToolTip": "C:\\Users\\Bence\\source\\repos\\TwitchChatBot\\TwitchChatBot\\TTSContainer.cs",
+              "RelativeToolTip": "TwitchChatBot\\TTSContainer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-21T12:02:58.555Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TwitchClientContainer.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\source\\repos\\TwitchChatBot\\TwitchChatBot\\TwitchClientContainer.cs",
+              "RelativeDocumentMoniker": "TwitchChatBot\\TwitchClientContainer.cs",
+              "ToolTip": "C:\\Users\\Bence\\source\\repos\\TwitchChatBot\\TwitchChatBot\\TwitchClientContainer.cs",
+              "RelativeToolTip": "TwitchChatBot\\TwitchClientContainer.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAgwEsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T21:20:46.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TwitchEventSubContainer.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\source\\repos\\TwitchChatBot\\TwitchChatBot\\TwitchEventSubContainer.cs",
+              "RelativeDocumentMoniker": "TwitchChatBot\\TwitchEventSubContainer.cs",
+              "ToolTip": "C:\\Users\\Bence\\source\\repos\\TwitchChatBot\\TwitchChatBot\\TwitchEventSubContainer.cs",
+              "RelativeToolTip": "TwitchChatBot\\TwitchEventSubContainer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T13:47:27.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Bence\\source\\repos\\TwitchChatBot\\TwitchChatBot\\Program.cs",
+              "RelativeDocumentMoniker": "TwitchChatBot\\Program.cs",
+              "ToolTip": "C:\\Users\\Bence\\source\\repos\\TwitchChatBot\\TwitchChatBot\\Program.cs",
+              "RelativeToolTip": "TwitchChatBot\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCwAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T22:25:29.612Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
