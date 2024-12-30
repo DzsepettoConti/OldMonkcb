@@ -10,6 +10,7 @@ internal class Program
     public static TwitchPubSubContainer PubSubContainer = new TwitchPubSubContainer();
     public static TwitchEventSubContainer EventSubContainer = new TwitchEventSubContainer();
     public static TTSContainer tTSContainer = new TTSContainer();
+    public static SoundPlayer soundPlayer = new SoundPlayer();
 
 
     #region
@@ -25,29 +26,28 @@ internal class Program
 
     #endregion
 
-
-
     static async Task Main(string[] args)
     {
-        // Twitch API inicializálása
+        
         API = new TwitchAPI();
         API.Settings.Secret = secret;
         API.Settings.ClientId = clientID;
         API.Settings.AccessToken = BotOAuth;
 
         string userName = "Geppo2tv";
-        await GetUserId(userName);
+         await GetUserId(userName);
 
         // Az OAuth token frissítése
         await RefreshMyToken();
 
 
-       ClientContainer.Initialize(BotUsername, BotOAuth);
+        ClientContainer.Initialize(BotUsername, BotOAuth);
 
         // ClientContainer inicializálása
         await TwitchEventSubContainer.Initialize(clientID, secret, BotOAuth);
 
-
+        string musicPath = "C:\\Users\\uif79177\\Downloads\\Itt mindenki hülye_ Üvegtigris 3.mp3";
+        soundPlayer.Playsound(musicPath);
 
 
         Console.ReadLine();
@@ -58,7 +58,7 @@ internal class Program
         {
             var refreshResult = await API.Auth.RefreshAuthTokenAsync(refreshToken, secret, clientID);
             BotOAuth = refreshResult.AccessToken;
-            Console.WriteLine("Token refreshed successfully!");
+            Console.WriteLine($"Token refreshed successfully: {BotOAuth}");
         }
         catch (Exception ex)
         {

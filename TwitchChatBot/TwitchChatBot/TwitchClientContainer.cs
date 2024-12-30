@@ -23,6 +23,8 @@ namespace TwitchChatBot
         {
             Client = new TwitchClient();
             Credentials = new ConnectionCredentials(botUser, botOAuthToken);
+            Console.WriteLine($"Username: {botUser}, Token: {botOAuthToken}");
+            
             Client.OnConnected += OnConnected;
             Client.OnJoinedChannel += JoinedChannel;
             Client.OnMessageReceived += MessageRecieved;
@@ -43,46 +45,11 @@ namespace TwitchChatBot
                 SendMessage(message);
             }
         }
-        public void TTS(string message) 
-        {
-            SpeechSynthesizer synthesizer = new SpeechSynthesizer();
-            synthesizer.Volume = 100;
-            synthesizer.Rate = 0;
-
-           
-            synthesizer.Speak(message);
-            Console.WriteLine("vége a felolvasásnak");
-        }
-        public void TTSMessage(OnChatCommandReceivedArgs e)
-        {
-            
-            string fullMessage = e.Command.ChatMessage.Message;
-
-            
-            if (fullMessage.Length > "!hang ".Length)
-            {
-                string hangText = fullMessage.Substring("!hang ".Length).Trim();
-                TTS(hangText);
-                Console.WriteLine($"A hang parancs tartalma: {hangText}");
-            }
-            else
-            {
-                Console.WriteLine("Nem adtál meg szöveget a !hang parancs után.");
-            }
-        }
 
         private void OnChatCommandReceived(object? sender, OnChatCommandReceivedArgs e)
         {
             ChatCommand("beep", "boop", e);
             ChatCommand("pisi", "kaka", e);
-
-            if (e.Command.CommandText.Equals("hang", StringComparison.OrdinalIgnoreCase))
-            {
-                TTSMessage(e);
-            }
-
-            
-
         }
         
         private void OnLog(object? sender, TwitchLib.Client.Events.OnLogArgs e)
