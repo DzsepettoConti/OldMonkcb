@@ -35,7 +35,7 @@ internal class Program
         API.Settings.AccessToken = BotOAuth;
 
         string userName = "Geppo2tv";
-         await GetUserId(userName);
+        await GetUserId(userName);
 
         // Az OAuth token frissítése
         await RefreshMyToken();
@@ -45,10 +45,6 @@ internal class Program
 
         // ClientContainer inicializálása
         await TwitchEventSubContainer.Initialize(clientID, secret, BotOAuth);
-
-        string musicPath = "C:\\Users\\uif79177\\Downloads\\Itt mindenki hülye_ Üvegtigris 3.mp3";
-        soundPlayer.Playsound(musicPath);
-
 
         Console.ReadLine();
     }

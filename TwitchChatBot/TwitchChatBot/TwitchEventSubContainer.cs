@@ -12,6 +12,7 @@ internal class TwitchEventSubContainer
 {
     public static  TwitchClientContainer clientContainer = new TwitchClientContainer();
     public static TTSContainer tTSContainer = new TTSContainer();
+    public static SoundPlayer soundPlayer = new SoundPlayer();
     private static string ClientId = "YOUR_CLIENT_ID";
     private static string ClientSecret = "YOUR_CLIENT_SECRET";
     private const string WebSocketUri = "wss://eventsub.wss.twitch.tv/ws";
@@ -158,8 +159,23 @@ internal class TwitchEventSubContainer
 
                     ///ide hang effekt épitése
                     ///
-                    //clientContainer.TTS(rewardMsg);
-                    tTSContainer.TTSInitialize(rewardMsg);
+                    // clientContainer.TTS(rewardMsg);
+                    // 
+                    soundPlayer.InitSounds(rewardTitle);
+
+                    bool soundRedeemed = SoundPlayer.issoundRedeem;
+
+
+                    if (soundRedeemed)
+                    {
+                        return;
+                    }
+                    else 
+                    {
+                        Console.WriteLine($"Ez lesz felolvasva: {rewardMsg}");
+                        tTSContainer.TTSInitialize(rewardMsg);
+                    }
+
                 }
                 else
                 {

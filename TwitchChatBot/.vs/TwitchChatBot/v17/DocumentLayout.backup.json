@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "D:\\GitHub\\OldMonkcb\\TwitchChatBot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|d:\\github\\oldmonkcb\\twitchchatbot\\twitchchatbot\\twitchclientcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|solutionrelative:twitchchatbot\\twitchclientcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|d:\\github\\oldmonkcb\\twitchchatbot\\twitchchatbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|solutionrelative:twitchchatbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|d:\\github\\oldmonkcb\\twitchchatbot\\twitchchatbot\\soundplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|solutionrelative:twitchchatbot\\soundplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|d:\\github\\oldmonkcb\\twitchchatbot\\twitchchatbot\\twitcheventsubcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|solutionrelative:twitchchatbot\\twitcheventsubcontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|d:\\github\\oldmonkcb\\twitchchatbot\\twitchchatbot\\sounds.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|solutionrelative:twitchchatbot\\sounds.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|d:\\github\\oldmonkcb\\twitchchatbot\\twitchchatbot\\ttscontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|solutionrelative:twitchchatbot\\ttscontainer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|d:\\github\\oldmonkcb\\twitchchatbot\\twitchchatbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7D162EBC-0EFC-4FB0-9C23-1DE1115F0F1B}|TwitchChatBot\\TwitchChatBot.csproj|solutionrelative:twitchchatbot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,50 +30,11 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "TwitchClientContainer.cs",
-              "DocumentMoniker": "D:\\GitHub\\OldMonkcb\\TwitchChatBot\\TwitchChatBot\\TwitchClientContainer.cs",
-              "RelativeDocumentMoniker": "TwitchChatBot\\TwitchClientContainer.cs",
-              "ToolTip": "D:\\GitHub\\OldMonkcb\\TwitchChatBot\\TwitchChatBot\\TwitchClientContainer.cs",
-              "RelativeToolTip": "TwitchChatBot\\TwitchClientContainer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T11:16:37.309Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\OldMonkcb\\TwitchChatBot\\TwitchChatBot\\Program.cs",
-              "RelativeDocumentMoniker": "TwitchChatBot\\Program.cs",
-              "ToolTip": "D:\\GitHub\\OldMonkcb\\TwitchChatBot\\TwitchChatBot\\Program.cs",
-              "RelativeToolTip": "TwitchChatBot\\Program.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAQwCkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T10:32:28.094Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SoundPlayer.cs",
-              "DocumentMoniker": "D:\\GitHub\\OldMonkcb\\TwitchChatBot\\TwitchChatBot\\SoundPlayer.cs",
-              "RelativeDocumentMoniker": "TwitchChatBot\\SoundPlayer.cs",
-              "ToolTip": "D:\\GitHub\\OldMonkcb\\TwitchChatBot\\TwitchChatBot\\SoundPlayer.cs",
-              "RelativeToolTip": "TwitchChatBot\\SoundPlayer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T10:20:34.479Z",
-              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -79,9 +44,61 @@
               "RelativeDocumentMoniker": "TwitchChatBot\\TTSContainer.cs",
               "ToolTip": "D:\\GitHub\\OldMonkcb\\TwitchChatBot\\TwitchChatBot\\TTSContainer.cs",
               "RelativeToolTip": "TwitchChatBot\\TTSContainer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-30T10:19:27.147Z",
+              "WhenOpened": "2024-12-31T14:00:53.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TwitchEventSubContainer.cs",
+              "DocumentMoniker": "D:\\GitHub\\OldMonkcb\\TwitchChatBot\\TwitchChatBot\\TwitchEventSubContainer.cs",
+              "RelativeDocumentMoniker": "TwitchChatBot\\TwitchEventSubContainer.cs",
+              "ToolTip": "D:\\GitHub\\OldMonkcb\\TwitchChatBot\\TwitchChatBot\\TwitchEventSubContainer.cs",
+              "RelativeToolTip": "TwitchChatBot\\TwitchEventSubContainer.cs",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAIwK4AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-31T10:57:59.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sounds.json",
+              "DocumentMoniker": "D:\\GitHub\\OldMonkcb\\TwitchChatBot\\TwitchChatBot\\Sounds.json",
+              "RelativeDocumentMoniker": "TwitchChatBot\\Sounds.json",
+              "ToolTip": "D:\\GitHub\\OldMonkcb\\TwitchChatBot\\TwitchChatBot\\Sounds.json",
+              "RelativeToolTip": "TwitchChatBot\\Sounds.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-31T09:09:54.143Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\GitHub\\OldMonkcb\\TwitchChatBot\\TwitchChatBot\\Program.cs",
+              "RelativeDocumentMoniker": "TwitchChatBot\\Program.cs",
+              "ToolTip": "D:\\GitHub\\OldMonkcb\\TwitchChatBot\\TwitchChatBot\\Program.cs",
+              "RelativeToolTip": "TwitchChatBot\\Program.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwCQAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T10:32:28.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SoundPlayer.cs",
+              "DocumentMoniker": "D:\\GitHub\\OldMonkcb\\TwitchChatBot\\TwitchChatBot\\SoundPlayer.cs",
+              "RelativeDocumentMoniker": "TwitchChatBot\\SoundPlayer.cs",
+              "ToolTip": "D:\\GitHub\\OldMonkcb\\TwitchChatBot\\TwitchChatBot\\SoundPlayer.cs",
+              "RelativeToolTip": "TwitchChatBot\\SoundPlayer.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAQwBsAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T10:20:34.479Z",
               "EditorCaption": ""
             }
           ]
