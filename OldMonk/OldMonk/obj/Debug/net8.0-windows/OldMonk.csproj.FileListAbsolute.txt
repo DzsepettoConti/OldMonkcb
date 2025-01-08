@@ -1,0 +1,17 @@
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\bin\Debug\net8.0-windows\OldMonk.exe
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\bin\Debug\net8.0-windows\OldMonk.deps.json
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\bin\Debug\net8.0-windows\OldMonk.runtimeconfig.json
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\bin\Debug\net8.0-windows\OldMonk.dll
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\bin\Debug\net8.0-windows\OldMonk.pdb
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\net8.0-windows\OldMonk.Form1.resources
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\net8.0-windows\OldMonk.csproj.GenerateResource.cache
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\net8.0-windows\OldMonk.GeneratedMSBuildEditorConfig.editorconfig
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\net8.0-windows\OldMonk.AssemblyInfoInputs.cache
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\net8.0-windows\OldMonk.AssemblyInfo.cs
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\net8.0-windows\OldMonk.csproj.CoreCompileInputs.cache
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\net8.0-windows\OldMonk.sourcelink.json
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\net8.0-windows\OldMonk.dll
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\net8.0-windows\refint\OldMonk.dll
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\net8.0-windows\OldMonk.pdb
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\net8.0-windows\OldMonk.genruntimeconfig.cache
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\net8.0-windows\ref\OldMonk.dll
