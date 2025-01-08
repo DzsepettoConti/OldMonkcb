@@ -1,0 +1,74 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\uif79177\\source\\repos\\OldMonkShell\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC6B8C-A567-4C90-8ACB-91FAC27EF3DD}|OldMonkShell\\OldMonkShell.csproj|c:\\users\\uif79177\\source\\repos\\oldmonkshell\\oldmonkshell\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC6B8C-A567-4C90-8ACB-91FAC27EF3DD}|OldMonkShell\\OldMonkShell.csproj|solutionrelative:oldmonkshell\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC6B8C-A567-4C90-8ACB-91FAC27EF3DD}|OldMonkShell\\OldMonkShell.csproj|c:\\users\\uif79177\\source\\repos\\oldmonkshell\\oldmonkshell\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FEEC6B8C-A567-4C90-8ACB-91FAC27EF3DD}|OldMonkShell\\OldMonkShell.csproj|solutionrelative:oldmonkshell\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEEC6B8C-A567-4C90-8ACB-91FAC27EF3DD}|OldMonkShell\\OldMonkShell.csproj|c:\\users\\uif79177\\source\\repos\\oldmonkshell\\oldmonkshell\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FEEC6B8C-A567-4C90-8ACB-91FAC27EF3DD}|OldMonkShell\\OldMonkShell.csproj|solutionrelative:oldmonkshell\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\uif79177\\source\\repos\\OldMonkShell\\OldMonkShell\\Program.cs",
+              "RelativeDocumentMoniker": "OldMonkShell\\Program.cs",
+              "ToolTip": "C:\\Users\\uif79177\\source\\repos\\OldMonkShell\\OldMonkShell\\Program.cs",
+              "RelativeToolTip": "OldMonkShell\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T12:38:05.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\uif79177\\source\\repos\\OldMonkShell\\OldMonkShell\\Form1.cs",
+              "RelativeDocumentMoniker": "OldMonkShell\\Form1.cs",
+              "ToolTip": "C:\\Users\\uif79177\\source\\repos\\OldMonkShell\\OldMonkShell\\Form1.cs",
+              "RelativeToolTip": "OldMonkShell\\Form1.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwCEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T12:36:02.674Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\uif79177\\source\\repos\\OldMonkShell\\OldMonkShell\\Form1.cs",
+              "RelativeDocumentMoniker": "OldMonkShell\\Form1.cs",
+              "ToolTip": "C:\\Users\\uif79177\\source\\repos\\OldMonkShell\\OldMonkShell\\Form1.cs [Design]",
+              "RelativeToolTip": "OldMonkShell\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-08T12:30:45.192Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

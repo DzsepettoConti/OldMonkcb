@@ -11,6 +11,7 @@ internal class Program
     public static TwitchEventSubContainer EventSubContainer = new TwitchEventSubContainer();
     public static TTSContainer tTSContainer = new TTSContainer();
     public static SoundPlayer soundPlayer = new SoundPlayer();
+    public static ttsTest ttstest = new ttsTest();
 
 
     #region
@@ -35,6 +36,10 @@ internal class Program
         API.Settings.AccessToken = BotOAuth;
 
         string userName = "Geppo2tv";
+
+        ttstest.InitTTS();
+
+        /*
         await GetUserId(userName);
 
         // Az OAuth token frissítése
@@ -45,7 +50,7 @@ internal class Program
 
         // ClientContainer inicializálása
         await TwitchEventSubContainer.Initialize(clientID, secret, BotOAuth);
-
+        */
         Console.ReadLine();
     }
     public static async Task RefreshMyToken()
