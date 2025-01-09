@@ -1,0 +1,17 @@
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\bin\Debug\OldMonk.exe.config
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\bin\Debug\OldMonk.exe
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\bin\Debug\OldMonk.pdb
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\OldMonk.csproj.AssemblyReference.cache
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\MainWindow.g.cs
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\App.g.cs
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\OldMonk_MarkupCompile.cache
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\OldMonk_MarkupCompile.lref
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\MainWindow.baml
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\OldMonk.g.resources
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\OldMonk.Properties.Resources.resources
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\OldMonk.csproj.GenerateResource.cache
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\OldMonk.csproj.CoreCompileInputs.cache
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\OldMonk.exe
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\OldMonk.pdb
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\ButtonStyle.baml
+D:\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\App.baml

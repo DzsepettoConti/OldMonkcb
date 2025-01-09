@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "D:\\GitHub\\OldMonkcb\\OldMonk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{148252D2-3387-42CE-ADB2-7E458B87D280}|OldMonk\\OldMonk.csproj|d:\\github\\oldmonkcb\\oldmonk\\oldmonk\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{148252D2-3387-42CE-ADB2-7E458B87D280}|OldMonk\\OldMonk.csproj|solutionrelative:oldmonk\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|d:\\github\\oldmonkcb\\oldmonk\\oldmonk\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|solutionrelative:oldmonk\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{148252D2-3387-42CE-ADB2-7E458B87D280}|OldMonk\\OldMonk.csproj|d:\\github\\oldmonkcb\\oldmonk\\oldmonk\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{148252D2-3387-42CE-ADB2-7E458B87D280}|OldMonk\\OldMonk.csproj|solutionrelative:oldmonk\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|d:\\github\\oldmonkcb\\oldmonk\\oldmonk\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|solutionrelative:oldmonk\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{148252D2-3387-42CE-ADB2-7E458B87D280}|OldMonk\\OldMonk.csproj|d:\\github\\oldmonkcb\\oldmonk\\oldmonk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{148252D2-3387-42CE-ADB2-7E458B87D280}|OldMonk\\OldMonk.csproj|solutionrelative:oldmonk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|d:\\github\\oldmonkcb\\oldmonk\\oldmonk\\buttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|solutionrelative:oldmonk\\buttonstyle.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{148252D2-3387-42CE-ADB2-7E458B87D280}|OldMonk\\OldMonk.csproj|d:\\github\\oldmonkcb\\oldmonk\\oldmonk\\oldmonk.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{148252D2-3387-42CE-ADB2-7E458B87D280}|OldMonk\\OldMonk.csproj|solutionrelative:oldmonk\\oldmonk.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|d:\\github\\oldmonkcb\\oldmonk\\oldmonk\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|solutionrelative:oldmonk\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +34,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OldMonk",
-              "DocumentMoniker": "D:\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\OldMonk.csproj",
-              "RelativeDocumentMoniker": "OldMonk\\OldMonk.csproj",
-              "ToolTip": "D:\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\OldMonk.csproj",
-              "RelativeToolTip": "OldMonk\\OldMonk.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-01-08T14:37:42.068Z",
+              "DocumentIndex": 1,
+              "Title": "App.xaml",
+              "DocumentMoniker": "D:\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\App.xaml",
+              "RelativeDocumentMoniker": "OldMonk\\App.xaml",
+              "ToolTip": "D:\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\App.xaml",
+              "RelativeToolTip": "OldMonk\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-09T15:02:12.804Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\Program.cs",
-              "RelativeDocumentMoniker": "OldMonk\\Program.cs",
-              "ToolTip": "D:\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\Program.cs",
-              "RelativeToolTip": "OldMonk\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T14:26:29.538Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "D:\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\Form1.cs",
-              "RelativeDocumentMoniker": "OldMonk\\Form1.cs",
-              "ToolTip": "D:\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\Form1.cs",
-              "RelativeToolTip": "OldMonk\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T14:26:11.68Z",
+              "Title": "ButtonStyle.xaml",
+              "DocumentMoniker": "D:\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\ButtonStyle.xaml",
+              "RelativeDocumentMoniker": "OldMonk\\ButtonStyle.xaml",
+              "ToolTip": "D:\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\ButtonStyle.xaml",
+              "RelativeToolTip": "OldMonk\\ButtonStyle.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-09T14:58:44.15Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "D:\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\Form1.cs",
-              "RelativeDocumentMoniker": "OldMonk\\Form1.cs",
-              "ToolTip": "D:\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\Form1.cs [Design]",
-              "RelativeToolTip": "OldMonk\\Form1.cs [Design]",
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "D:\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "OldMonk\\MainWindow.xaml",
+              "ToolTip": "D:\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\MainWindow.xaml",
+              "RelativeToolTip": "OldMonk\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-09T14:43:42.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "OldMonk\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\MainWindow.xaml.cs",
+              "RelativeToolTip": "OldMonk\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-08T14:25:23.611Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-01-09T14:43:42.224Z",
+              "EditorCaption": ""
             }
           ]
         }
