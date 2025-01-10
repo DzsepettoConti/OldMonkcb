@@ -16,18 +16,6 @@
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
                     <Grid>
-                        <!-- Árnyék -->
-                        <Border CornerRadius="15"
-                                Background="Transparent"
-                                Margin="0">
-                            <Border.Effect>
-                                <DropShadowEffect Color="Black"
-                                                  BlurRadius="10"
-                                                  ShadowDepth="3"
-                                                  Opacity="0.5" />
-                            </Border.Effect>
-                        </Border>
-
                         <!-- Gomb -->
                         <Border Background="{TemplateBinding Background}"
                                 BorderBrush="{TemplateBinding BorderBrush}"

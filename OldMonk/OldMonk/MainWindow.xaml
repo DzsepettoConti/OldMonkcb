@@ -8,8 +8,8 @@
         Title="MainWindow" Height="350" Width="600">
     <Grid>
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
-            <Button Style="{StaticResource CustomButtonStyle}" Content="Egyedi gomb" Width="500" Height="80" Margin="0,0,0,30"/>
-            <Button Style="{StaticResource CustomButtonStyle}" Content="Egyedi Gomb 2" Width="500" Height="80"/>
+            <Button  Content="Edit" Width="500" Height="80" Margin="0,0,0,30" Click="EditButton_Click"/>
+            <Button  Content="New" Width="500" Height="80" Click="NewButton_Click"/>
         </StackPanel>
     </Grid>
 </Window>

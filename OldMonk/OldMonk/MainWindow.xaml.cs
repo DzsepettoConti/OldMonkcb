@@ -84,5 +84,15 @@ namespace OldMonk
             notifyIcon.ShowBalloonTip(500, Title, Msg, System.Windows.Forms.ToolTipIcon.Info);
 
         }
+
+        private void EditButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void NewButton_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
