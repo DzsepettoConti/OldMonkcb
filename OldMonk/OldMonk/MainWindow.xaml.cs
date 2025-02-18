@@ -92,6 +92,8 @@ namespace OldMonk
 
         private void NewButton_Click(object sender, RoutedEventArgs e)
         {
+            NewItemWindow niw = new NewItemWindow();
+            niw.Show();
 
         }
     }
