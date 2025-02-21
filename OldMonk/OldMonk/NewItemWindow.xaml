@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OldMonk"
         mc:Ignorable="d"
-        Title="NewItemWindow" Height="450" Width="350">
+        Title="NewItemWindow" Height="500" Width="350">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="20"  />
@@ -15,9 +15,15 @@
 
 
 
-        <StackPanel Name="mainStackPanel" HorizontalAlignment="Center" Grid.Row="1" Width="300">
-            <ComboBox Width="100" Margin="10" x:Name="cbSelectType" SelectionChanged="ComboBox_SelectionChanged">
-            </ComboBox>
+        <StackPanel Name="mainStackPanel" HorizontalAlignment="Center" Grid.Row="1" Width="350">
+            <StackPanel Orientation="Horizontal">
+                <ComboBox Width="100" Margin="10" x:Name="cbSelectType" SelectionChanged="ComboBox_SelectionChanged">
+                </ComboBox>
+                <Label Margin="10">Új elem neve:</Label>
+                <TextBox Width="100" Height="30" x:Name="tbNewName"></TextBox>
+            </StackPanel>
+
+
 
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Label x:Name="lblTitle" Content="Hang feltöltése" Margin="10"></Label>
@@ -29,7 +35,7 @@
             <MediaElement Name="LoadedVideo" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Margin="10,40,10,10" Visibility="Collapsed"
                LoadedBehavior="Manual" UnloadedBehavior="Manual"/>
 
-            <Button x:Name="bntSave" Click="bntSave_Click">
+            <Button x:Name="bntSave" Click="bntSave_Click" Height="50" Content="Save">
                 
             </Button>
 

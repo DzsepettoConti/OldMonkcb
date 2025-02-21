@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -143,39 +144,65 @@ namespace OldMonk
 
         public void saveSelectedItem() 
         {
-        
+            cbSelectType.SelectedItem.ToString().Trim();
+            MessageBox.Show(cbSelectType.SelectedItem.ToString().Trim());
         
         }
 
         private void bntSave_Click(object sender, RoutedEventArgs e)
         {
+            saveSelectedItem();
             string source = _selectedItemPath;
-            string dest = ".\Items\";
 
+            string exeDirectory = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
 
+            string dest = System.IO.Path.Combine(exeDirectory, "Items");
+
+            Console.WriteLine("Az Items mappa elérési útja: " + dest);
 
             try
             {
-                // Ellenőrizzük, hogy létezik-e a célmappa
-                if (!Directory.Exists(destinationFolder))
-                {
-                    // Ha nem létezik, akkor létrehozzuk
-                    Directory.CreateDirectory(destinationFolder);
-                }
-
-                // A cél fájl elérési útja
-                string destinationFile = Path.Combine(destinationFolder, Path.GetFileName(sourceFile));
-
-                // Fájl másolása
-                File.Copy(sourceFile, destinationFile, true);  // Az utolsó paraméter 'true' felülírja a fájlt, ha már létezik
-
-                Console.WriteLine($"A fájl sikeresen másolva lett: {destinationFile}");
+                CopyFile(dest, source);
+                MessageBox.Show("A kép sikeresen átmásolva");
             }
-            catch (Exception ex)
+            catch (Exception)
             {
-                Console.WriteLine($"Hiba történt: {ex.Message}");
+                MessageBox.Show("A képet nem sikerült átmásolni");
+
+                throw;
             }
+
 
         }
+
+        private void CopyFile(string dest, string source) 
+        {
+
+                if (!Directory.Exists(dest))
+                {
+                    Directory.CreateDirectory(dest);
+                }
+
+                string destinationFile = System.IO.Path.Combine(dest, System.IO.Path.GetFileName(source));
+
+                File.Copy(source, destinationFile, true);
+
+                Console.WriteLine($"A fájl sikeresen másolva lett: {destinationFile}");
+
+                string newFileName = tbNewName.Text;
+
+                string newDestination = System.IO.Path.Combine(dest, $"{newFileName}.png");
+
+                if (File.Exists(destinationFile))
+                {
+                    File.Move(destinationFile, newDestination);
+                    Console.WriteLine($"A fájl át lett nevezve: {newDestination}");
+                }
+                else
+                {
+                    Console.WriteLine("A fájl nem található a megadott helyen.");
+                }
+        }
+
     }
 }
