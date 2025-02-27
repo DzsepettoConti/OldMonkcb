@@ -142,28 +142,22 @@ namespace OldMonk
 
         }
 
-        public void saveSelectedItem() 
-        {
-            cbSelectType.SelectedItem.ToString().Trim();
-            MessageBox.Show(cbSelectType.SelectedItem.ToString().Trim());
-        
-        }
+       
 
         private void bntSave_Click(object sender, RoutedEventArgs e)
         {
-            saveSelectedItem();
             string source = _selectedItemPath;
 
             string exeDirectory = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
 
             string dest = System.IO.Path.Combine(exeDirectory, "Items");
 
-            Console.WriteLine("Az Items mappa elérési útja: " + dest);
+            Debug.WriteLine("Az Items mappa elérési útja: " + dest);
 
             try
             {
                 CopyFile(dest, source);
-                MessageBox.Show("A kép sikeresen átmásolva");
+
             }
             catch (Exception)
             {
@@ -171,6 +165,7 @@ namespace OldMonk
 
                 throw;
             }
+            
 
 
         }
@@ -195,14 +190,44 @@ namespace OldMonk
 
                 if (File.Exists(destinationFile))
                 {
+                if (File.Exists(newDestination)) 
+                {
+                    MessageBox.Show("Egy elem létezik már ilyen névvel");
+                }
+                else {
                     File.Move(destinationFile, newDestination);
                     Console.WriteLine($"A fájl át lett nevezve: {newDestination}");
+                }
+                    
                 }
                 else
                 {
                     Console.WriteLine("A fájl nem található a megadott helyen.");
                 }
-        }
+                MakeNewItem($@"{dest}\Items.csv", newDestination, newFileName);
 
+        }
+        private void MakeNewItem(string csvPath, string itemPath, string ItemName)
+        {
+           
+            bool fileExists = File.Exists(csvPath);
+
+           
+            if (!fileExists)
+            {
+                using (StreamWriter sw = new StreamWriter(csvPath))
+                {
+                    // Fejléc írása, ha új fájlt hozunk létre
+                    sw.WriteLine("itemname,itempath");
+                }
+            }
+
+           
+            using (StreamWriter sw = new StreamWriter(csvPath, append: true))
+            {
+                
+                sw.WriteLine($"{ItemName},{itemPath}");
+            }
+        }
     }
 }
