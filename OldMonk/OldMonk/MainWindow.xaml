@@ -5,11 +5,22 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OldMonk"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="600">
+        Title="MainWindow" Height="800" Width="1000">
     <Grid>
-        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Vertical">
-            <Button  Content="Edit" Width="500" Height="80" Margin="0,0,0,30" Click="EditButton_Click"/>
-            <Button  Content="New" Width="500" Height="80" Click="NewButton_Click"/>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Orientation="Horizontal">
+            <Button  Content="Edit" Width="500" Height="50" Margin="0,0,0,0" Click="EditButton_Click"/>
+            <Button  Content="New" Width="500" Height="50" Click="NewButton_Click"/>
         </StackPanel>
+        <Grid Grid.Row="1">
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+                <WrapPanel x:Name="MainWrapPanel" Orientation="Horizontal"/>
+            </ScrollViewer>
+        </Grid>
+
     </Grid>
 </Window>

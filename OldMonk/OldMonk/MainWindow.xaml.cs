@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
+using System.Diagnostics;
 
 namespace OldMonk
 {
@@ -25,6 +27,7 @@ namespace OldMonk
         {
             InitializeComponent();
             //this.Hide();
+            LoadObjects();
 
             notifyIcon = new System.Windows.Forms.NotifyIcon
             {
@@ -96,5 +99,51 @@ namespace OldMonk
             niw.Show();
 
         }
+
+
+        private void LoadObjects()
+        {
+            string exeDirectory = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
+            string dest = System.IO.Path.Combine(exeDirectory, "Items");
+            string csvFile = System.IO.Path.Combine(dest, "Items.csv");
+
+            var items = ProcessCsv(csvFile);  // CSV fájl beolvasása és feldolgozása
+
+            foreach (var item in items)
+            {
+                // Minden elemhez létrehozunk egy StandardObject kontrollt
+                var control = new StandardObject(item.Key, item.Value);
+                control.Width = 100; // kisebb, hogy a margin + width = pont kiférjen
+                control.Margin = new Thickness(10); // 10px térköz minden oldalra
+                MainWrapPanel.Children.Add(control);
+            }
+        }
+
+        // CSV fájl feldolgozása
+        private Dictionary<string, string> ProcessCsv(string csvFile)
+        {
+            var result = new Dictionary<string, string>();
+
+            if (File.Exists(csvFile))
+            {
+                foreach (var line in File.ReadLines(csvFile))
+                {
+                    var parts = line.Split(',');
+
+                    if (parts.Length == 2)
+                    {
+                        var itemPath = parts[0].Trim();
+                        var itemName = parts[1].Trim();
+                        Debug.WriteLine(itemName, itemPath);
+
+                        result[itemName] = itemPath;
+                    }
+                }
+            }
+
+            return result;
+        }
+
+
     }
 }

@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\ow949g\\Documents\\GitHub\\OldMonkcb\\OldMonk\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|c:\\users\\ow949g\\documents\\github\\oldmonkcb\\oldmonk\\oldmonk\\newitemwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|solutionrelative:oldmonk\\newitemwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|c:\\users\\ow949g\\documents\\github\\oldmonkcb\\oldmonk\\oldmonk\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|solutionrelative:oldmonk\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|c:\\users\\ow949g\\documents\\github\\oldmonkcb\\oldmonk\\oldmonk\\newitemwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|c:\\users\\ow949g\\documents\\github\\oldmonkcb\\oldmonk\\oldmonk\\standardobject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|solutionrelative:oldmonk\\standardobject.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|C:\\Users\\ow949g\\Documents\\GitHub\\OldMonkcb\\OldMonk\\oldmonk\\newitemwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|solutionrelative:oldmonk\\newitemwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|c:\\users\\ow949g\\documents\\github\\oldmonkcb\\oldmonk\\oldmonk\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E0A2CBCE-0B19-4B4A-9D16-409EEED00561}|OldMonk\\OldMonk.csproj|solutionrelative:oldmonk\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,31 +26,56 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "NewItemWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\ow949g\\Documents\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\NewItemWindow.xaml",
-              "RelativeDocumentMoniker": "OldMonk\\NewItemWindow.xaml",
-              "ToolTip": "C:\\Users\\ow949g\\Documents\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\NewItemWindow.xaml",
-              "RelativeToolTip": "OldMonk\\NewItemWindow.xaml",
+              "DocumentIndex": 1,
+              "Title": "StandardObject.xaml",
+              "DocumentMoniker": "C:\\Users\\ow949g\\Documents\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\StandardObject.xaml",
+              "RelativeDocumentMoniker": "OldMonk\\StandardObject.xaml",
+              "ToolTip": "C:\\Users\\ow949g\\Documents\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\StandardObject.xaml",
+              "RelativeToolTip": "OldMonk\\StandardObject.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-27T09:05:01.05Z",
+              "WhenOpened": "2025-04-08T08:54:15.39Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ow949g\\Documents\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "OldMonk\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ow949g\\Documents\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\MainWindow.xaml.cs",
+              "RelativeToolTip": "OldMonk\\MainWindow.xaml.cs",
+              "ViewState": "AQIAAGwAAAAAAAAAAAAiwIYAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-08T08:26:25.754Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "NewItemWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ow949g\\Documents\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\NewItemWindow.xaml.cs",
               "RelativeDocumentMoniker": "OldMonk\\NewItemWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ow949g\\Documents\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\NewItemWindow.xaml.cs",
               "RelativeToolTip": "OldMonk\\NewItemWindow.xaml.cs",
-              "ViewState": "AQIAAIEAAAAAAAAAAAAkwI0AAAAAAAAA",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAqwJQAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T09:01:50.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ow949g\\Documents\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "OldMonk\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\ow949g\\Documents\\GitHub\\OldMonkcb\\OldMonk\\OldMonk\\MainWindow.xaml",
+              "RelativeToolTip": "OldMonk\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-04-08T08:04:51.678Z",
               "EditorCaption": ""
             }
           ]

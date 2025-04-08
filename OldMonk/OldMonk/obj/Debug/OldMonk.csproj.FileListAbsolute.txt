@@ -34,3 +34,5 @@ C:\Users\ow949g\Documents\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\OldMonk.csp
 C:\Users\ow949g\Documents\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\OldMonk.csproj.CoreCompileInputs.cache
 C:\Users\ow949g\Documents\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\OldMonk.exe
 C:\Users\ow949g\Documents\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\OldMonk.pdb
+C:\Users\ow949g\Documents\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\StandardObject.g.cs
+C:\Users\ow949g\Documents\GitHub\OldMonkcb\OldMonk\OldMonk\obj\Debug\StandardObject.baml
